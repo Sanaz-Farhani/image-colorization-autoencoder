@@ -50,8 +50,17 @@ The model learns to map grayscale images back to their original RGB format using
 
 ---
 
-## 🖼 Results
+##  Results
 
 The model successfully reconstructs colorized images from grayscale inputs.
 
 Example output is saved in:
+
+
+---
+
+##  How to Run
+
+```bash
+pip install tensorflow numpy matplotlib
+python main.py
